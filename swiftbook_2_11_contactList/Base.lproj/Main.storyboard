@@ -87,6 +87,7 @@
                     <navigationItem key="navigationItem" id="CWS-rA-Umi"/>
                     <connections>
                         <outlet property="emailLabel" destination="rB8-MN-e3X" id="kb8-I3-MKo"/>
+                        <outlet property="navBar" destination="CWS-rA-Umi" id="FG7-oy-S5x"/>
                         <outlet property="phoneLabel" destination="qIQ-sp-dbl" id="HMi-dY-ESj"/>
                     </connections>
                 </viewController>
