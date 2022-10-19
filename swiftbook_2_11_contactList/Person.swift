@@ -18,13 +18,18 @@ struct Person {
     static func getRandomPersons() -> [Person] {
         var result: [Person] = []
         
-        for _ in 1...6 {
+        let names = DataStore.getRandomNames()
+        let surnames = DataStore.getRandomSurnames()
+        let emails = DataStore.getRandomEmails()
+        let phones = DataStore.getRandomPhones()
+        
+        for i in 0...5 {
             result.append(
                 Person(
-                    name: DataStore.getRandomName(),
-                    surname: DataStore.getRandomSurname(),
-                    email: DataStore.getRandomEmail(),
-                    phone: DataStore.getRandomPhone()
+                    name: names[i],
+                    surname: surnames[i],
+                    email: emails[i],
+                    phone: phones[i]
                 )
             )
         }
@@ -94,19 +99,27 @@ struct DataStore {
         "(269) 583-8948"
     ]
     
-    static func getRandomName() -> String {
-        names.randomElement() ?? "No name"
+    static func getRandomNames() -> [String] {
+        var names = self.names
+        names.shuffle()
+        return Array(names.prefix(6))
     }
     
-    static func getRandomSurname() -> String {
-        surnames.randomElement() ?? "No surname"
+    static func getRandomSurnames() -> [String] {
+        var surnames = self.surnames
+        surnames.shuffle()
+        return Array(surnames.prefix(6))
     }
     
-    static func getRandomEmail() -> String {
-        emails.randomElement() ?? "No email"
+    static func getRandomEmails() -> [String] {
+        var emails = self.emails
+        emails.shuffle()
+        return Array(emails.prefix(6))
     }
     
-    static func getRandomPhone() -> String {
-        phones.randomElement() ?? "No phone"
+    static func getRandomPhones() -> [String] {
+        var phones = self.phones
+        phones.shuffle()
+        return Array(phones.prefix(6))
     }
 }
