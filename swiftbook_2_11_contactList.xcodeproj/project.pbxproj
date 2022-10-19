@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		AC7518E02900581B000C2F08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7518DF2900581B000C2F08 /* AppDelegate.swift */; };
 		AC7518E22900581B000C2F08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7518E12900581B000C2F08 /* SceneDelegate.swift */; };
-		AC7518E42900581B000C2F08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7518E32900581B000C2F08 /* ViewController.swift */; };
+		AC7518E42900581B000C2F08 /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7518E32900581B000C2F08 /* ContactListViewController.swift */; };
 		AC7518E72900581B000C2F08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7518E52900581B000C2F08 /* Main.storyboard */; };
 		AC7518E92900581E000C2F08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7518E82900581E000C2F08 /* Assets.xcassets */; };
 		AC7518EC2900581E000C2F08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7518EA2900581E000C2F08 /* LaunchScreen.storyboard */; };
+		AC7518F4290058F6000C2F08 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7518F3290058F6000C2F08 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AC7518DC2900581B000C2F08 /* swiftbook_2_11_contactList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftbook_2_11_contactList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC7518DF2900581B000C2F08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC7518E12900581B000C2F08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AC7518E32900581B000C2F08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC7518E32900581B000C2F08 /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
 		AC7518E62900581B000C2F08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC7518E82900581E000C2F08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC7518EB2900581E000C2F08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC7518ED2900581E000C2F08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC7518F3290058F6000C2F08 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				AC7518DF2900581B000C2F08 /* AppDelegate.swift */,
 				AC7518E12900581B000C2F08 /* SceneDelegate.swift */,
-				AC7518E32900581B000C2F08 /* ViewController.swift */,
+				AC7518E32900581B000C2F08 /* ContactListViewController.swift */,
 				AC7518E52900581B000C2F08 /* Main.storyboard */,
+				AC7518F3290058F6000C2F08 /* Person.swift */,
 				AC7518E82900581E000C2F08 /* Assets.xcassets */,
 				AC7518EA2900581E000C2F08 /* LaunchScreen.storyboard */,
 				AC7518ED2900581E000C2F08 /* Info.plist */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC7518E42900581B000C2F08 /* ViewController.swift in Sources */,
+				AC7518E42900581B000C2F08 /* ContactListViewController.swift in Sources */,
 				AC7518E02900581B000C2F08 /* AppDelegate.swift in Sources */,
+				AC7518F4290058F6000C2F08 /* Person.swift in Sources */,
 				AC7518E22900581B000C2F08 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

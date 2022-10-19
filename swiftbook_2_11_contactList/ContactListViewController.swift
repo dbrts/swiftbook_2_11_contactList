@@ -7,11 +7,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ContactListViewController: UITableViewController {
+    
+    private let contactList = Person.getRandomPersons()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        print(contactList)
     }
 
 
