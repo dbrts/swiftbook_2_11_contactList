@@ -14,6 +14,7 @@
 		AC7518E92900581E000C2F08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7518E82900581E000C2F08 /* Assets.xcassets */; };
 		AC7518EC2900581E000C2F08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7518EA2900581E000C2F08 /* LaunchScreen.storyboard */; };
 		AC7518F4290058F6000C2F08 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7518F3290058F6000C2F08 /* Person.swift */; };
+		AC7518F629006078000C2F08 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7518F529006078000C2F08 /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		AC7518EB2900581E000C2F08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC7518ED2900581E000C2F08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC7518F3290058F6000C2F08 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		AC7518F529006078000C2F08 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				AC7518E12900581B000C2F08 /* SceneDelegate.swift */,
 				AC7518E32900581B000C2F08 /* ContactListViewController.swift */,
 				AC7518E52900581B000C2F08 /* Main.storyboard */,
+				AC7518F529006078000C2F08 /* InfoViewController.swift */,
 				AC7518F3290058F6000C2F08 /* Person.swift */,
 				AC7518E82900581E000C2F08 /* Assets.xcassets */,
 				AC7518EA2900581E000C2F08 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				AC7518E02900581B000C2F08 /* AppDelegate.swift in Sources */,
 				AC7518F4290058F6000C2F08 /* Person.swift in Sources */,
 				AC7518E22900581B000C2F08 /* SceneDelegate.swift in Sources */,
+				AC7518F629006078000C2F08 /* InfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
