@@ -11,12 +11,6 @@ class ContactListViewController: UITableViewController {
     
     private let contactList = Person.getRandomPersons()
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        print(contactList)
-    }
-
     // MARK: - Table view data source
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         contactList.count
