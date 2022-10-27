@@ -9,7 +9,7 @@ import UIKit
 
 class ContactListViewController: UITableViewController {
     
-    private let contactList = Person.getRandomPersons(count: 7)
+    private let contactList = Person.getRandomPersons(count: 6)
 
     // MARK: - Table view data source
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
